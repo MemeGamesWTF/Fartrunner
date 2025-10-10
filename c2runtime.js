@@ -27550,7 +27550,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Audio.prototype.acts.Stop,
 	cr.system_object.prototype.acts.SubVar,
 	cr.plugins_.Sprite.prototype.acts.SetPosToObject,
-	cr.plugins_.Browser.prototype.cnds.IsOnline,
+	cr.plugins_.Browser.prototype.cnds.OnOnline,
 	cr.plugins_.Browser.prototype.acts.ExecJs
 ];};
 
