@@ -27497,7 +27497,6 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.acts.SetLayerVisible,
 	cr.plugins_.Spritefont2.prototype.acts.SetVisible,
 	cr.plugins_.Browser.prototype.acts.ExecJs,
-	cr.plugins_.Text.prototype.exps.Text,
 	cr.plugins_.Touch.prototype.cnds.OnTapGestureObject,
 	cr.plugins_.Sprite.prototype.cnds.IsAnimPlaying,
 	cr.system_object.prototype.acts.RestartLayout,
