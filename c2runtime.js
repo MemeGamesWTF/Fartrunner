@@ -27496,6 +27496,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite.prototype.acts.SetAnim,
 	cr.system_object.prototype.acts.SetLayerVisible,
 	cr.plugins_.Spritefont2.prototype.acts.SetVisible,
+	cr.plugins_.Browser.prototype.acts.ExecJs,
 	cr.plugins_.Touch.prototype.cnds.OnTapGestureObject,
 	cr.plugins_.Sprite.prototype.cnds.IsAnimPlaying,
 	cr.system_object.prototype.acts.RestartLayout,
@@ -27549,8 +27550,6 @@ cr.getObjectRefTable = function () { return [
 	cr.behaviors.Platform.prototype.cnds.IsOnFloor,
 	cr.plugins_.Audio.prototype.acts.Stop,
 	cr.system_object.prototype.acts.SubVar,
-	cr.plugins_.Sprite.prototype.acts.SetPosToObject,
-	cr.plugins_.Browser.prototype.cnds.OnOnline,
-	cr.plugins_.Browser.prototype.acts.ExecJs
+	cr.plugins_.Sprite.prototype.acts.SetPosToObject
 ];};
 
