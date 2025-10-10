@@ -26668,12 +26668,12 @@ cr.behaviors.wrap = function(runtime)
 }());
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.Audio,
-	cr.plugins_.Particles,
 	cr.plugins_.Keyboard,
-	cr.plugins_.Sprite,
+	cr.plugins_.Particles,
 	cr.plugins_.Spritefont2,
-	cr.plugins_.Text,
 	cr.plugins_.Touch,
+	cr.plugins_.Sprite,
+	cr.plugins_.Text,
 	cr.behaviors.Flash,
 	cr.behaviors.Platform,
 	cr.behaviors.bound,
@@ -26746,6 +26746,5 @@ cr.getObjectRefTable = function () { return [
 	cr.behaviors.Platform.prototype.cnds.IsOnFloor,
 	cr.plugins_.Audio.prototype.acts.Stop,
 	cr.system_object.prototype.acts.SubVar,
-	cr.behaviors.Platform.prototype.acts.SetIgnoreInput,
 	cr.plugins_.Sprite.prototype.acts.SetPosToObject
 ];};
